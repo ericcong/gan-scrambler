@@ -10,6 +10,7 @@ This repo has a lot of old dependencies, so make sure to run it accordingly.
 3. Install NPM 7.13: `npm install -g npm@7.13`
 4. Install dependencies: `cd <the repo dir>; npm install`
 5. Start the server with the port you like: `PORT=<your port>; npm start`
+6. Revert NPM to the latest version: `npm install -g npm@latest`
 
 ---
 
