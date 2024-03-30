@@ -1,4 +1,18 @@
 # Gan Scrambler
+
+---
+**NOTE**
+
+This repo has a lot of old dependencies, so make sure to run it accordingly.
+
+1. Install [NVM](https://github.com/nvm-sh/nvm)
+2. Install Node.js version 16 (LTS): `nvm install 16; nvm use 16`
+3. Install NPM 7.13: `npm install -g npm@7.13`
+4. Install dependencies: `cd <the repo dir>; npm install`
+5. Start the server with the port you like: `PORT=<your port>; npm start`
+
+---
+
 Gan Scrambler is a PWA for controlling the GAN Robot: https://www.gancube.com/gan-robot
 
 It can execute random scrambles, manual scrambles (inputted scramble codes e.g. L U' B D2 R...), and can scramble the cube for any of the four stages of CFOP solving method.
